@@ -1,3 +1,5 @@
+
+
 class rectangle:
     def __init__(self, width, height):
         self.width = width
@@ -12,6 +14,8 @@ class rectangle:
         self.width = new_width
         self.height = new_height
         return new_width, new_height
+
+
 try:
     params = rectangle(float(input("Width: ")), float(input("Height: ")))
     print(f"Area of your rectangle is {params.area()}")
